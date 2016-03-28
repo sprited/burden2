@@ -26,6 +26,7 @@ $dbt_ilist="wrd_item_list";
 $dbt_items="wrd_item_base";
 $dbt_share="wrd_item_share";
 $dbt_flink="wrd_file_link";
+$dbt_alink="wrd_file_alink";
 
 $dbt_mrkt="wrd_mark_tags";
 $dbt_mrkl="wrd_mark_links";
@@ -126,7 +127,7 @@ include "uni_func.php";
 			}
 
 			// Прописать новые куки	// BMS: C
-			setCookie("logname",$auth_ln,$auth_uptime,"/");
+			setCookie("lognamer",$auth_ln,$auth_uptime,"/");
 			setCookie("passcode",$auth_pc,$auth_uptime,"/");
 		
 		// Если пользователь не опознан
