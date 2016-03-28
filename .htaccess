@@ -1,0 +1,12 @@
+#ErrorDocument 404 http://pm.96.lt/
+
+AddDefaultCharset utf-8
+
+Options All -Indexes
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d  
+RewriteRule ^([A-z0-9_]+)/?([A-z0-9_]+)?/?([A-z0-9_]+)?/?$ /?a=$1&b=$2&c=$3 [QSA,L]
