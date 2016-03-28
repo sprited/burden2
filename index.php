@@ -139,7 +139,7 @@ include "uni_func.php";
 			}
 			
 			// Если нед доступа к ДБ, сообщить
-			sp("No connection to DB! Please, try again later.",2);
+			sp("No connection to DB! Please, try again later or GO AWAY!",2);
 		}
 		
 		// Если всё прошло успешно, вернуть положительный результат
