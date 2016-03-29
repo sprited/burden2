@@ -3,12 +3,6 @@
 //print "YOU ARE WELCOME!";
 //exit;
 
-// Блок переменных базы данных
-$db_host="mysql.hostinger.ru";
-$db_user="u858706044_pen";
-$db_keycode="kamilla6";
-$db_name="u858706044_word";
-
 // Открываем врата в ад
 $db_link=mysqli_connect($db_host, $db_user, $db_keycode, $db_name);
 
